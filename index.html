@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+  
+    <title>Conversor de divisas</title>
+
+</head>
+
+<body>
+    <center>
+        <form onsubmit="return false">
+            <div>
+                <div>
+                    <img class="image" src="../Tarea-01/images/imagen_coversor.png">
+                </div>
+                <div>
+                    <input class="bordes" id="money_income" type="number" placeholder="Cantidad de dinero: " required>
+                </div>
+                <div id="despliegue">
+                    <select class="bordes" id="seleccionar_1" name="coin" class="form-control">
+                        <option value="default" disabled selected>Elige tu Moneda</option>
+                    </select>
+                    <select class="bordes" id="seleccionar_2" name="coin2" class="form-control">
+                        <option value="default" disabled selected>Elige tu Moneda</option>
+                    </select>
+					<button class="boton" id="convertido" onclick="modificar()">
+                            Convertir
+                    </button>
+                </div>
+                    <div class="form-group">
+                        <div class="texto" id="Total"></div>
+                        <div id="veri" class="validacion ocultar">
+                        <div>Validaciones del formulario</div>
+                    </div> 
+                </div>
+        </form>
+    </center>
+
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
