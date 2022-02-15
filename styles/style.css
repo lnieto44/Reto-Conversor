@@ -1,0 +1,55 @@
+body {
+    background-color: #E7E6E6;
+  }
+
+*{
+    margin: 0;
+}
+.bordes{
+    border:2px solid rgb(128, 128, 128);
+
+}
+
+.texto{
+    color: #4C7551;
+
+}
+
+form{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5%;
+    background-color: #cecece;
+    line-height: 2rem;
+    border-radius: 30px;
+    }
+
+    .verificacion{
+        width: 100%;
+        border:1px solid rgb(114, 145, 172);
+        background-color: rgb(254, 177, 164);
+        color: white;
+
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+    .boton{
+        background-color: #70AD47;
+        width: 200px;
+        color: white;
+        border-radius: 10px;
+    }
+
+
+.image{
+    width: 20%;
+    margin-top: 0;
+    
+}
+
+
+

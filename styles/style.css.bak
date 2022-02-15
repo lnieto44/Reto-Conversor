@@ -1,0 +1,45 @@
+body {
+  background-color: #E7E6E6;
+}
+
+
+
+*{
+    margin: 0;
+}
+form{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5%;
+    background-color: #cecece;
+    line-height: 2rem;
+    border-radius: 30px;
+    }
+
+    .verificacion{
+        width: 100%;
+        border:1px solid #7291ac;
+        background-color: #feb1a4;
+
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+    .botton{
+        background-color: green;
+        width: 200px;
+        color: white;
+        border-radius: 20px;
+    }
+
+
+.img{
+    width: 10%;
+    margin-top: 0;
+	background-image: url("..\Modulo-3\Tarea-01\images\imagen_coversor.png");
+    
+}
+
